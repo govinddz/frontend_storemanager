@@ -1,0 +1,142 @@
+.v-align-text-bottom {vertical-align: text-bottom;}
+.btn-close-light {
+  border: 0 none;
+  border-radius: 100%;
+  font-size: 24px;
+  padding: 3px;
+  line-height: 18px;
+}
+.form-control {
+  &.search {
+    background-color: #272f38;
+    color: #fff;
+    border-color: #272f38;
+    padding: 0.25rem 8.8rem 0.25rem 1.8rem;
+    &:focus {
+      color: #fff;
+      background-color: #495057;
+      border-color: #272f38;
+      outline: 0;
+      box-shadow: 0 0 0 0 transparent;
+    }
+  }
+}
+.btn-search {
+  position: absolute;
+  right: 1px;
+  padding: 0.05rem 0.5rem;
+  margin-top: 0.02rem;
+  z-index: 9;
+}
+.input-group {
+  .search-icon {
+    position: absolute;
+    left: 7px;
+    top: 1px;
+    z-index: 9;
+    color: #86898a;
+  }
+}
+.bg-dark {
+  .modal-header {
+    padding: 0.5rem 1rem;
+    border-bottom: 1px solid #252729;
+  }
+  .form-control {
+    background-color: #272f38;
+    color: #fff;
+    border-color: #272f38;
+    &:focus {
+      color: #fff;
+      background-color: #495057;
+      border-color: #272f38;
+      outline: 0;
+      box-shadow: 0 0 0 0 transparent;
+    }
+  }
+  .list-group-item {
+    background-color:#272f38;
+    color: #FFF;
+    cursor: pointer;
+  }
+  .page-link {
+    background-color:#272f38;
+    border-color: #272f38;
+    color: #a8b5c1;
+    &:hover{
+      background-color:#3e444a;
+      border-color: #272f38;
+      color: #fff;
+    }
+  }
+  .page-item {
+    &.disabled {
+      .page-link {
+        background-color:#272f38;
+        border-color: #272f38;
+      }
+    }
+    &.active {
+      .page-link {
+        background-color:#3e444a;
+        border-color: #272f38;
+      }
+    }
+  }
+}
+
+.invalid-feedback {
+  display: block!important;
+  color: #ff6170!important;
+}
+.toast {
+  opacity: 1!important;
+  width: 250px;
+  .toast-body {
+    background-color: rgba(255, 255, 255, 0.85);
+    p {
+      font-size: 16px;
+    }
+  }
+}
+.f-s-22 {
+  font-size: 22px;
+}
+.w-90 {
+  width: 90%;}
+.nearbycheck {
+  z-index: 9;
+  position: absolute!important;
+  top: 5px;
+  right: 145px;
+  font-size: 14px;
+  @media only screen and (max-width: 768px) {
+      font-size: 12px;
+      padding:0.25rem 9.3rem 0.25rem 1.6rem;
+  }
+}
+.form-check-input {
+  margin-left: -1rem!important;
+}
+.ic_close {
+  right: 0;
+  position: absolute;
+  z-index: 2;
+}
+.f-s-12 {font-size: 12px}
+
+@media only screen and (width: 768px) {
+  .nearbycheck {
+    top: 2px;
+    right: 0;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .nearbycheck {
+    top: 2px;
+    right: -2px;
+  }
+  .form-control.search {
+    padding: 0.25rem 8.5rem 0.25rem 1.6rem;
+  }
+}
